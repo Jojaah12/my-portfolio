@@ -1,0 +1,30 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #252934;
+}
+
+.welcome-text p {
+    color: #fff;
+    font-size: 2rem;
+    max-width: 550px;
+    line-height: 1.5em;
+}
+
+.text-span {
+    color: #c04f4f;
+}
+
+@media only screen and (max-width: 500px) {
+    .welcome-text p {
+        color: #F5F5DC;
+        font-size: 1.5rem;
+        max-width: 550px;
+        line-height: 2em;
+    }
+}
