@@ -1,21 +1,29 @@
+a {
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
 
-  
-  .btn {
+.welcome-button {
     width: 200px;
     font-size: 18px;
     height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     outline: none;
-    background: #c38b8b;
     color: #fff;
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 8px;
     margin-top: 26px;
+    
+    font-family: "Helvetica Neue", "Helvetica"
+  
   }
   
-  .btn::before {
+  .welcome-button::before {
     position: absolute;
     content: "";
     width: calc(100% + 4px);
@@ -43,11 +51,36 @@
     border-radius: 10px;
   }
   
-  .btn:hover::before {
+  .welcome-button:hover::before {
     opacity: 1;
   }
+
+  .icon {
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+  .welcome-button:hover .icon {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    color: #fff;
+  }
+
+  @keyframes arrow {
+    0% {
+        left: 0px;
+        opacity: 0.4;
+    }
+
+    100% {
+        left: 10px;
+        opacity: 1;
+    }
+}
+
   
-  .btn::after {
+  .welcome-button::after {
     z-index: -1;
     content: "";
     position: absolute;
@@ -69,4 +102,4 @@
     100% {
       background-position: 0 0;
     }
-  }
+  } 

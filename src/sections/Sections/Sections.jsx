@@ -6,12 +6,12 @@ import "./Sections.css";
 
 const Sections = () => {
   return (
-    <div className="sections">
+    <section className="sections">
       <Welcome />
       <Profile />
       <Projects />
       <Contact />
-    </div>
+    </section>
   );
 };
 

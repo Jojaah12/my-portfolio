@@ -1,5 +1,7 @@
+import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
 import Button from "../../components/Button/Button";
 import "./Welcome.css";
+
 const Welcome = () => {
   return (
     <section className="section">
@@ -10,13 +12,10 @@ const Welcome = () => {
         </p>
       </div>
       <Button
-        /* url="#profile"
-        icon={faAngleDoubleRight} */
-        divStyle={{
-          paddingTop: "40px",
-        }}
+        url="#profile"
+        icon={faAngleDoubleRight}
         className="button"
-        text="View my work"
+        text="View My Work"
       />
     </section>
   );

@@ -1,0 +1,48 @@
+.competence-div {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 50px 50px 0;
+    font-weight: 500;
+    color: #616161;
+}
+
+.competence-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #04c2c9;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+.des-div {
+    max-width: 80%;
+    line-height: 18pt;
+}
+
+@media (max-width: 450px) {
+    .competence-div {
+        display: flex;
+        flex-direction: column;
+        margin: 5% 5% 5% 5%;
+        font-size: 16px;
+    }
+
+    .icon-div {
+        width: 65px;
+        height: 65px;
+    }
+
+    .competence-item {
+        margin-top: 20px;
+    }
+}

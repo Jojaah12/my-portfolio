@@ -1,0 +1,68 @@
+.project-card {
+    position: relative;
+    margin: 5px;
+}
+
+.card-img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #252934;
+    color: #fff;
+}
+
+.project-card:hover .overlay {
+    opacity: 0.9;
+}
+
+.card-disc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card-disc p {
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.card-button {
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+
+.card-button {
+    border: 2px solid #fff;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.card-button:hover {
+    color: #000;
+    background-color: #04c2c9;
+}
+
+.disc {
+    color: #fff;
+    font-weight: 400;
+}
