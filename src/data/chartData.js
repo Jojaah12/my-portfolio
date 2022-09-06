@@ -11,46 +11,26 @@ const chartData = [
   },
   {
     id: "3",
-    title: "PHP",
-    width: "85%",
-  },
-  {
-    id: "4",
-    title: "LARAVEL",
-    width: "85%",
-  },
-  {
-    id: "5",
     title: "JAVASCRIPT",
     width: "80%",
   },
   {
-    id: "6",
+    id: "4",
     title: "REACT",
     width: "80%",
   },
   {
-    id: "7",
+    id: "5",
     title: "REACT NATIVE",
     width: "80%",
   },
   {
-    id: "8",
+    id: "6",
     title: "NODE.JS",
     width: "70%",
   },
   {
-    id: "9",
-    title: "ANGULAR",
-    width: "60%",
-  },
-  {
-    id: "10",
-    title: ".NET",
-    width: "50%",
-  },
-  {
-    id: "11",
+    id: "7",
     title: "FIGMA",
     width: "50%",
   },

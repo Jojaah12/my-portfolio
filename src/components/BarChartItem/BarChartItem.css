@@ -1,6 +1,6 @@
 .bar-chart {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     height: 55px;
     margin-bottom: -10px;
     justify-content: center;
@@ -34,11 +34,11 @@
 .animated-bar-chart-width {
     background-color: #00a1a7;
     height: 29px;
-    animation: fadein 2s;
+    animation: fadein 1s;
 }
 
 .bar-chart-procent {
-    width: 7%;
+    width: 1px;
     background-color: #eee;
     line-height: 2;
     height: 29px;
