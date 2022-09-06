@@ -4,9 +4,9 @@ a {
 }
 
 .welcome-button {
-    width: 200px;
+    width: 165px;
+    height: 40px;
     font-size: 18px;
-    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,8 +18,6 @@ a {
     z-index: 0;
     border-radius: 8px;
     margin-top: 26px;
-    
-    font-family: "Helvetica Neue", "Helvetica"
   
   }
   
