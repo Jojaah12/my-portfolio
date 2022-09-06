@@ -10,26 +10,39 @@
     font-size: 40px;
     min-width: 600px;
     position: relative;
+
 }
 
-.about:before{
+.line{
+    height: 1px;
+    background: rgb(184, 25, 25);
+  }
+
+/* .about:before{
     content: "";
     display: block;
+    margin-left: 300px;
     width: 120px;
     height: 2px;
     background: #000;
     position: absolute;
     left: 0;
     top: 50%;
-}
+    z-index: -2;
+} */
 
-.about:after{
+/* .about:after{
     content: "";
     display: block;
+    margin-right: 300px;
     width: 120px;
     height: 2px;
     background: #000;
     position: absolute;
     right: 0;
     top: 50%;
+    z-index: -2;
 }
+span{
+    background: #fff;
+} */
