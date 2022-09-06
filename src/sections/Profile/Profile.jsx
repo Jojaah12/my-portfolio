@@ -1,16 +1,18 @@
 import Competence from "../../components/Competence/Competence";
-import SectionTitle from "../../components/SectionTitle/SectionTitle";
+/* import SectionTitle from "../../components/SectionTitle/SectionTitle"; */
 import BarChart from "../../components/BarChart/BarChart";
 
 import "./Profile.css";
 
 const Profile = () => {
   return (
-    <section id="profile" className="profile-section">
-      <SectionTitle sectionTitle="about" lineColor="#000" />
+    <div id="profile" className="profile-section">
+      <h1 className="about">
+        <span>ABOUT</span>
+      </h1>
       <Competence />
       <BarChart />
-    </section>
+    </div>
   );
 };
 
