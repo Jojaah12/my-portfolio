@@ -7,7 +7,7 @@ import "./Profile.css";
 const Profile = () => {
   return (
     <section id="profile" className="profile-section">
-      <SectionTitle sectionTitle="about" lineColor="#000" />
+      <SectionTitle sectionTitle="" />
       <Competence />
       <BarChart />
     </section>

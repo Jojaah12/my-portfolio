@@ -5,10 +5,6 @@ const SectionTitle = (props) => {
   return (
     <div className="section-title">
       <p>{props.sectionTitle}</p>
-      <hr
-        style={{ background: props.lineColor }}
-        className="section-title-line"
-      />
     </div>
   );
 };

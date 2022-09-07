@@ -30,6 +30,16 @@ const chartData = [
     width: "70%",
   },
   {
+    id: "6",
+    title: "MongoDB",
+    width: "70%",
+  },
+  {
+    id: "6",
+    title: "PostgreSQL",
+    width: "70%",
+  },
+  {
     id: "7",
     title: "FIGMA",
     width: "50%",

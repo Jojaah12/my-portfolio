@@ -22,7 +22,7 @@
     text-align: center;
     line-height: 2;
     font-weight: bolder;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 .bar-chart-div {
@@ -34,14 +34,14 @@
 .animated-bar-chart-width {
     background-color: #00a1a7;
     height: 29px;
-    animation: fadein 1s;
+    animation: fadein 3.5s;
 }
 
 .bar-chart-procent {
-    width: 1px;
+    width: 35px;
     background-color: #eee;
     line-height: 2;
-    height: 29px;
+    height: 30px;
 }
 
 @keyframes fadein {

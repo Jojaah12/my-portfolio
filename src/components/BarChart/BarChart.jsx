@@ -1,4 +1,4 @@
-import React from "react";
+import "./BarChart.css";
 import chartData from "../../data/chartData";
 import BarChartItem from "../BarChartItem/BarChartItem";
 
