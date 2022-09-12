@@ -1,6 +1,5 @@
 import Contact from "../Contact/Contact";
 import Profile from "../Profile/Profile";
-import Projects from "../Projects/Projects";
 import Welcome from "../Welcome/Welcome";
 import "./Sections.css";
 
@@ -9,7 +8,6 @@ const Sections = () => {
     <section className="sections">
       <Welcome />
       <Profile />
-      <Projects />
       <Contact />
     </section>
   );
